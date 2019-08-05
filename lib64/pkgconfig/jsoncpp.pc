@@ -1,0 +1,11 @@
+prefix=/home/zz/rocketmq/rocketmq-client-cpp/bin
+exec_prefix=${prefix}
+libdir=/home/zz/rocketmq/rocketmq-client-cpp/bin/lib
+includedir=/home/zz/rocketmq/rocketmq-client-cpp/bin/include/jsoncpp
+
+Name: jsoncpp
+Description: A C++ library for interacting with JSON
+Version: 0.10.6
+URL: https://github.com/open-source-parsers/jsoncpp
+Libs: -L${libdir} -ljsoncpp
+Cflags: -I${includedir}
